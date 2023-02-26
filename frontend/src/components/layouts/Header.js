@@ -21,7 +21,7 @@ export default function Header () {
         <div className="col-12 col-md-3">
           <div className="navbar-brand">
             <Link to="/">
-              <img width="150px" alt='JVLcart Logo' src="/images/logo.png" />
+            <h4>Home</h4>
             </Link>
             </div>
         </div>
