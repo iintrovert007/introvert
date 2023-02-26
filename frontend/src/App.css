@@ -30,6 +30,10 @@ nav {
   background-color: #232f3e;
   padding: 1rem 1rem;
 }
+nav h4{
+  color:white;
+  text-decoration:none;
+}
 
 #search_btn {
   background-color: #febd69;

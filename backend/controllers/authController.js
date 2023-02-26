@@ -18,6 +18,7 @@ exports.registerUser = catchAsyncError(async (req, res, next) => {
 
     if(req.file){
         avatar = `${BASE_URL}/uploads/user/${req.file.originalname}`
+        newUserData ={...newUserData,avatar}
     }
 
     const user = await User.create({
